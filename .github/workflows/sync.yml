@@ -1,0 +1,39 @@
+name: sync anti-AD
+
+on:
+  schedule:
+    # anti-AD builds daily around 05:01 CST; check every 6 hours.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-anti-ad
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download upstream list
+        run: curl -fsSL --retry 3 https://anti-ad.net/domains.txt -o /tmp/domains.txt
+
+      - name: Convert to hosts format
+        run: ./scripts/convert.sh /tmp/domains.txt anti-ad.hosts
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet anti-ad.hosts; then
+            echo "No upstream changes, nothing to commit."
+            exit 0
+          fi
+          VER="$(awk -F': ' '/^# Upstream version/{print $2; exit}' anti-ad.hosts)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anti-ad.hosts
+          git commit -m "sync anti-AD ${VER}"
+          git push
