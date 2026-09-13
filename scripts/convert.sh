@@ -13,7 +13,6 @@ DST="${2:?usage: convert.sh <domains.txt> <output.hosts>}"
 # Carry the upstream build version through so consumers can tell syncs apart.
 VER="$(awk -F= '/^#VER=/{print $2; exit}' "$SRC")"
 TOTAL="$(grep -vc '^#' "$SRC" || true)"
-NOW="$(date -u +%FT%TZ)"
 
 {
   echo "# Title: anti-AD list in hosts format"
@@ -22,7 +21,6 @@ NOW="$(date -u +%FT%TZ)"
   echo "# Converted by: https://github.com/igevin/anti-ad-hosts"
   echo "# Upstream version: ${VER:-unknown}"
   echo "# Total domains: ${TOTAL}"
-  echo "# Generated at: ${NOW}"
   echo "#"
   awk '!/^#/ && NF {print "0.0.0.0 " $1}' "$SRC"
 } > "$DST"
