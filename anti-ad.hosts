@@ -2,8 +2,8 @@
 # Homepage: https://github.com/privacy-protection-tools/anti-AD
 # License: MIT (see LICENSE)
 # Converted by: https://github.com/igevin/anti-ad-hosts
-# Upstream version: 20260920045250
-# Total domains: 108351
+# Upstream version: 20260920180534
+# Total domains: 108350
 #
 0.0.0.0 000491b06a.com
 0.0.0.0 000dn.com
@@ -92999,7 +92999,6 @@
 0.0.0.0 tck.fr.transavia.com
 0.0.0.0 tk.transavia.com
 0.0.0.0 telemetry.transcend.io
-0.0.0.0 transcend.io
 0.0.0.0 info.transcontinental-printing.com
 0.0.0.0 marketing.transcore.com
 0.0.0.0 transferfaciliate.com
