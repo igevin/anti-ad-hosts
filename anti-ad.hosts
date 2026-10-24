@@ -2,8 +2,8 @@
 # Homepage: https://github.com/privacy-protection-tools/anti-AD
 # License: MIT (see LICENSE)
 # Converted by: https://github.com/igevin/anti-ad-hosts
-# Upstream version: 20261023054817
-# Total domains: 112079
+# Upstream version: 20261024213434
+# Total domains: 112078
 #
 0.0.0.0 000491b06a.com
 0.0.0.0 000dn.com
@@ -52620,7 +52620,6 @@
 0.0.0.0 t.iz55.com
 0.0.0.0 e.izaos.com
 0.0.0.0 m.izaos.com
-0.0.0.0 izatcloud.net
 0.0.0.0 izavjtqqznucm.site
 0.0.0.0 izaybwqvajljf.space
 0.0.0.0 izccryctmxtwb.website
