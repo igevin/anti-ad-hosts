@@ -2,8 +2,8 @@
 # Homepage: https://github.com/privacy-protection-tools/anti-AD
 # License: MIT (see LICENSE)
 # Converted by: https://github.com/igevin/anti-ad-hosts
-# Upstream version: 20261029064403
-# Total domains: 108290
+# Upstream version: 20261030205754
+# Total domains: 108283
 #
 0.0.0.0 000491b06a.com
 0.0.0.0 000dn.com
@@ -28740,7 +28740,6 @@
 0.0.0.0 iam-rum-intake.datadoghq.com
 0.0.0.0 logs.datadoghq.com
 0.0.0.0 datadoghq.eu
-0.0.0.0 datadome.co
 0.0.0.0 adsmartget.datads.cn
 0.0.0.0 datadsk.com
 0.0.0.0 datafa.st
@@ -34857,7 +34856,6 @@
 0.0.0.0 enrtx.com
 0.0.0.0 ensealplaners.com
 0.0.0.0 enseq50a.xyz
-0.0.0.0 ensighten.com
 0.0.0.0 nexus.ensighten.com
 0.0.0.0 ensmwonhtzpdh.space
 0.0.0.0 ensosignal.com
@@ -41048,7 +41046,6 @@
 0.0.0.0 xwpzlz.gemimarket.it
 0.0.0.0 geminisailingzillion.com
 0.0.0.0 cmp.gemius.com
-0.0.0.0 gemius.pl
 0.0.0.0 gemlithium.com
 0.0.0.0 ovrsso.gemo.fr
 0.0.0.0 gemorganic.com
@@ -57775,7 +57772,6 @@
 0.0.0.0 scdn.literatur-couch.de
 0.0.0.0 stats.literaturkreis.online
 0.0.0.0 ini.litingxin.cn
-0.0.0.0 litix.io
 0.0.0.0 link.litnet.com
 0.0.0.0 litpzshqdkjvn.online
 0.0.0.0 litrujsxxymfn.website
@@ -69308,7 +69304,6 @@
 0.0.0.0 omshedinjaor.com
 0.0.0.0 d.omsnative.de
 0.0.0.0 omswwmgtqwekb.space
-0.0.0.0 omtrdc.net
 0.0.0.0 omwvapmytccsc.online
 0.0.0.0 omwvtaafvqa.in
 0.0.0.0 omxpiremgszzv.space
@@ -73225,7 +73220,6 @@
 0.0.0.0 placidityelite.com
 0.0.0.0 placiditylever.com
 0.0.0.0 placidperson.com
-0.0.0.0 pladform.ru
 0.0.0.0 hsvrww.plain-me.com
 0.0.0.0 plain-plane.com
 0.0.0.0 plaincapsize.com
@@ -82678,7 +82672,6 @@
 0.0.0.0 a8clk.segatoys.com
 0.0.0.0 nossl.segfault.net
 0.0.0.0 stat.segitek.hu
-0.0.0.0 segment.com
 0.0.0.0 cdn-settings.segment.com
 0.0.0.0 mobile-service.segment.com
 0.0.0.0 segment.io
